@@ -1,0 +1,128 @@
+.underDeveloping{
+margin-top: 200px;
+text-align: center;
+
+}
+.container2{
+  text-align: center;
+}
+
+
+
+.nav{
+  text-align: center;
+}
+
+.editButton{
+  float: right;
+  margin-right:  5px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  background: #f9c921;
+  color: #000;
+}
+
+
+
+.deleteButton{
+  float: right;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  background: #C80033;
+  color: #fff;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+.titleHeading{
+  text-align: center;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background:#2E9CE6;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color:#fff;
+}
+ul {
+    list-style-type:none;
+    margin:0 0 2em 0;
+    padding:0;
+}
+ul li {
+    display:inline;
+    margin-right: 30px;
+}
+ul li a {
+    font-size: 1.5em;
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: #2885C4;
+
+
+}
+.color-light {
+    background: #57B3F1;
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+input.btn {
+    border: 0;
+    display:block;
+    padding:1em 3em;
+    background:#A5F883;
+    color:#003A61;
+    margin-bottom:1em;
+    cursor:pointer;
+}
+input.navbtn {
+    margin-top: 80px;
+    border: 0;
+    border-radius: 15px;
+    display:inline;
+    padding:1em 3em;
+    background:#A5F883;
+    color:#003A61;
+    margin-bottom:1em;
+    cursor:pointer;
+}
+
+input.navbtn:hover{
+    background: #FFF333;
+}
+
+input.navbtn::selection{
+  background: #FFF333;
+}
+
+.life-container {
+    background:#3FA0E1;
+    padding:.5em;
+    height: 30px;
+    font-weight:bold;
+
+
+}

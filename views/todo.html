@@ -1,0 +1,27 @@
+<div class="container color-dark">
+  <div class="col">
+    <p>Add another activity</p>
+  </div>
+  <div class="col">
+    <p>Your To-Do list ({{ itemCount }})</p>
+  </div>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p class="sm">You can add here your To-Do list. so what are you planning to do ?</p>
+    <form>
+      <input type="text" class="txt" name="item" placeholder="I want to..." ng-model="todotext">
+
+      <input type="submit" class="btn" value="{{buttonText}}" ng-click="addItem()">
+    </form>
+  </div>
+  <div class="col">
+    <p class="life-container" ng-repeat="todo in todoList track by $index">
+      {{ todo}}
+      <input class="deleteButton" type="button" value="{{ deleteButtonTxt}}" ng-click="removeItem($index)">
+      <a href="#!/edit"><input class="editButton" type="submit" value="{{editButtonTxt}}"/></a>
+
+
+    </p>
+  </div>
+</div>
