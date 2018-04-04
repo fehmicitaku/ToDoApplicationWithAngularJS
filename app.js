@@ -16,7 +16,7 @@ todoApp.config(function($routeProvider) {
       templateUrl: '/views/edit.html',
       controller: 'editController'
     }).otherwise({
-      redirectTo: '/dashboard'
+      redirectTo: '/todo'
     });
 });
 
